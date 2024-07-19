@@ -7,7 +7,7 @@ jobs:
       GITHUB_TOKEN: ${{ github.token }}
     permissions:
       pull-requests: write
-      contents: read
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: Setup
